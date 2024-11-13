@@ -12,6 +12,14 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class FileUtility {
+	/**
+	 * 
+	 * @param sheetName
+	 * @param rowNum
+	 * @param cellNum
+	 * @return
+	 * @throws Exception This method is used to get the data from Excel file
+	 */
 	public String getDataFromExcel(String sheetName, int rowNum, int cellNum) throws Exception {
 		FileInputStream fis = new FileInputStream(UtilityConstants.excelPath);
 		Workbook wb = WorkbookFactory.create(fis);
@@ -20,6 +28,13 @@ public class FileUtility {
 		return data;
 	}
 
+	/**
+	 * This method is used to get the rowCount of the column
+	 * 
+	 * @param sheetName
+	 * @return
+	 * @throws Exception
+	 */
 	public int getRowCount(String sheetName) throws Exception {
 		FileInputStream fis = new FileInputStream(UtilityConstants.excelPath);
 		Workbook wb = WorkbookFactory.create(fis);
@@ -28,16 +43,34 @@ public class FileUtility {
 		return rowcount;
 	}
 
+	/**
+	 * This method is used to Write Data to Excel
+	 * 
+	 * @param sheetName
+	 * @param rowNum
+	 * @param cellNum
+	 * @param data
+	 * @throws Exception
+	 */
 	public void setDataIntoExcel(String sheetName, int rowNum, int cellNum, String data) throws Exception {
 		FileInputStream fis = new FileInputStream(UtilityConstants.excelPath);
 		System.out.println(fis);
 		Workbook wb = WorkbookFactory.create(fis);
-		wb.getSheet(sheetName).createRow(rowNum).createCell(cellNum).setCellValue(data);;
+		wb.getSheet(sheetName).createRow(rowNum).createCell(cellNum).setCellValue(data);
+		;
 
 		FileOutputStream fos = new FileOutputStream(UtilityConstants.excelPath);
 		wb.write(fos);
 		wb.close();
 	}
+
+	/**
+	 * This Method is used to get the Data from Properties File
+	 * 
+	 * @param Key
+	 * @return
+	 * @throws Exception
+	 */
 
 	public String getDataFromPropertiesFiles(String Key) throws Exception {
 		FileInputStream fis = new FileInputStream(UtilityConstants.propertyPath);
@@ -46,7 +79,13 @@ public class FileUtility {
 		String data = pObj.getProperty(Key);
 		return data;
 	}
-
+	/**
+	 * This method is used to read Multiple Data from Excel
+	 * @param sheetName
+	 * @return
+	 * @throws EncryptedDocumentException
+	 * @throws IOException
+	 */
 	public String[][] readingMultipleData(String sheetName) throws EncryptedDocumentException, IOException {
 		FileInputStream fis = new FileInputStream(UtilityConstants.excelPath);
 		Workbook workbook = WorkbookFactory.create(fis);

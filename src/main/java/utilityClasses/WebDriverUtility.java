@@ -16,24 +16,59 @@ import org.testng.annotations.Listeners;
 import elementRepository.HomePage;
 
 public class WebDriverUtility {
-	
+	/**
+	 * This method will help us to maximize the Window
+	 * 
+	 * @param driver
+	 */
 	public void implicitWaitAndMaximize(WebDriver driver) {
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.manage().window().maximize();
-	}	
-	public void waitForElementPresent(WebDriver driver , WebElement element) {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-		wait.until(ExpectedConditions.visibilityOf(element));
-	}	
-	public void checkVisibilityOfElement(WebDriver driver , WebElement element) {
+	}
+
+	/**
+	 * This method will help us to wait till the Element is Present
+	 * 
+	 * @param driver
+	 * @param element
+	 */
+
+	public void waitForElementPresent(WebDriver driver, WebElement element) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}
 
-	
-	
-	
-	public void switchToTabOnUrl(WebDriver driver ,String partialUrl) {
+	/**
+	 * This method will help us to check the visibility of the element
+	 * 
+	 * @param driver
+	 * @param element
+	 */
+	public void checkVisibilityOfElement(WebDriver driver, WebElement element) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+		wait.until(ExpectedConditions.visibilityOf(element));
+	}
+
+	/**
+	 * Waits until the URL of the current page contains the specified substring.
+	 * Uses an internal default timeout of 20 seconds.
+	 * 
+	 * @param driver    The WebDriver instance.
+	 * @param substring The substring to wait for in the URL.
+	 */
+	public void waitForUrlToContain(WebDriver driver, String substring) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+		wait.until(ExpectedConditions.urlContains(substring));
+	}
+
+	/**
+	 * This method will help us to navigate to another tab based on url
+	 * 
+	 * @param driver
+	 * @param partialUrl
+	 */
+
+	public void switchToTabOnUrl(WebDriver driver, String partialUrl) {
 		Set<String> childwindow = driver.getWindowHandles();
 		for (String window : childwindow) {
 			driver.switchTo().window(window);
@@ -42,7 +77,14 @@ public class WebDriverUtility {
 			}
 		}
 	}
-	public void switchToTabOnTitle(WebDriver driver ,String partialTitle) {
+
+	/**
+	 * This method will help us to navigate to another tab based on Title
+	 * 
+	 * @param driver
+	 * @param partialTitle
+	 */
+	public void switchToTabOnTitle(WebDriver driver, String partialTitle) {
 		Set<String> childwindow = driver.getWindowHandles();
 		for (String window : childwindow) {
 			driver.switchTo().window(window);
@@ -51,94 +93,202 @@ public class WebDriverUtility {
 			}
 		}
 	}
-	public void switchToFrame(WebDriver driver , int index)	{
+
+	/**
+	 * This method is used to switch to iframe element based on index
+	 * 
+	 * @param driver
+	 * @param index
+	 */
+	public void switchToFrame(WebDriver driver, int index) {
 		driver.switchTo().frame(index);
 	}
-	
-	public void switchToFrame(WebDriver driver , String nameID)	{
+
+	/**
+	 * This method is used to switch to iframe element based on name
+	 * 
+	 * @param driver
+	 * @param nameID
+	 */
+
+	public void switchToFrame(WebDriver driver, String nameID) {
 		driver.switchTo().frame(nameID);
 	}
-	
-	public void switchToFrame(WebDriver driver , WebElement element )	{
+
+	/**
+	 * This method is used to switch to iframe element based on element
+	 * 
+	 * @param driver
+	 * @param element
+	 */
+
+	public void switchToFrame(WebDriver driver, WebElement element) {
 		driver.switchTo().frame(element);
 	}
 
-	public void switchToAlertAndAccept (WebDriver driver) {
+	/**
+	 * This method is used to switch to alert and Accept it
+	 * 
+	 * @param driver
+	 */
+
+	public void switchToAlertAndAccept(WebDriver driver) {
 		driver.switchTo().alert().accept();
 	}
-	
-	public void switchToAlertAndCancel (WebDriver driver) {
+
+	/**
+	 * This method is used to switch to alert and dismiss it
+	 * 
+	 * @param driver
+	 */
+
+	public void switchToAlertAndCancel(WebDriver driver) {
 		driver.switchTo().alert().dismiss();
 	}
-	
-	public void select(WebElement element , String text) {
+
+	/**
+	 * This method is used to select the dropdown value by using VisibleText
+	 * 
+	 * @param element
+	 * @param text
+	 */
+
+	public void select(WebElement element, String text) {
 		Select sel = new Select(element);
 		sel.selectByVisibleText(text);
 	}
-	
-	
-	public void select(WebElement element , int index) {
+
+	/**
+	 * This method is used to select the dropdown value by using index
+	 * 
+	 * @param element
+	 * @param index
+	 */
+
+	public void select(WebElement element, int index) {
 		Select sel = new Select(element);
 		sel.selectByIndex(index);
 	}
-	
-	public void mouseHover(WebDriver driver , WebElement element) {
+
+	/**
+	 * This method is used to Hover on the Particular WebElement
+	 * 
+	 * @param driver
+	 * @param element
+	 */
+
+	public void mouseHover(WebDriver driver, WebElement element) {
 		Actions act = new Actions(driver);
 		act.moveToElement(element).perform();
 	}
-	
-	public void doubleClick(WebDriver driver , WebElement element) {
+
+	/**
+	 * This method is used for Double Clicking
+	 * 
+	 * @param driver
+	 * @param element
+	 */
+	public void doubleClick(WebDriver driver, WebElement element) {
 		Actions act = new Actions(driver);
 		act.moveToElement(element).perform();
 	}
+
+	/**
+	 * This will help us to handle the popups of the homepage
+	 * 
+	 * @param driver
+	 * @throws InterruptedException
+	 */
+
 	public void handlePopups(WebDriver driver) throws InterruptedException {
-//		HomePage homepage=new HomePage(driver);
 		driver.switchTo().frame(driver.findElement(By.xpath("//iframe[@class='__st_preview_frame_bpn']")));
 		driver.findElement(By.name("notnow")).click();
 		driver.switchTo().defaultContent();
-		driver.findElement(By.xpath("(//button[@aria-label=\"Close\"])[5]")).click();	
-		Thread.sleep(3000);
+		driver.findElement(By.xpath("(//button[@aria-label=\"Close\"])[5]")).click();
 		Actions act = new Actions(driver);
 		act.moveToElement(driver.findElement(By.xpath("(//img[@title='close icon'])[2]"))).click().perform();
-		
-//		driver.switchTo().frame(homepage.getIframe());
-//		homepage.getPopUp().click();
-//		driver.switchTo().defaultContent();
-//	    homepage.getCloseButton().click();	
-//		Thread.sleep(3000);
-//		Actions act = new Actions(driver);
-//		act.moveToElement(driver.findElement(By.xpath("(//img[@title='close icon'])[2]"))).click().perform();
-//		
-//		
-//		
-		
+
 	}
 
-	public void scrollToElementTop(WebDriver driver, WebElement element) {
-	    ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
-	}
-	public void clickUsingJS(WebDriver driver, WebElement element) {
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-	    js.executeScript("arguments[0].click();", element);
-	}
+	/**
+	 * 
+	 * @param driver
+	 * @param element This method will help us to wait until the element is clicked
+	 */
+
 	public void waitForElementClickable(WebDriver driver, WebElement element) {
-	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-	    wait.until(ExpectedConditions.elementToBeClickable(element));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.elementToBeClickable(element));
 	}
-	public void scrollToELement(WebDriver driver,WebElement element) {
-		Actions a=new Actions(driver);
+
+	/**
+	 * 
+	 * @param driver
+	 * @param element This method will help us to scroll till the element
+	 */
+
+	public void scrollToELement(WebDriver driver, WebElement element) {
+		Actions a = new Actions(driver);
 		a.scrollToElement(element).perform();
 	}
 
+	/**
+	 * 
+	 * @param driver
+	 * @param xOffset
+	 * @param yOffset This element will help us to hover according to the
+	 *                co-ordinates
+	 */
 	public void hoverUsingCoordinates(WebDriver driver, int xOffset, int yOffset) {
-		 Actions actions = new Actions(driver);
-		    actions.moveByOffset(xOffset, yOffset).perform();
-		
+		Actions actions = new Actions(driver);
+		actions.moveByOffset(xOffset, yOffset).perform();
+
 	}
 
-	
-	
-	
-	
-	
+	/**
+	 * 
+	 * @param driver
+	 * @param element This method will help us to wait till the element is scrolled
+	 */
+
+	public void waitAndScrollToElement(WebDriver driver, WebElement element) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.visibilityOf(element));
+		scrollToElementTop(driver, element);
+	}
+
+	/**
+	 * 
+	 * @param driver
+	 * @param element This method will help us to scroll to the element by using
+	 *                actions class
+	 */
+
+	public void scrollToElementUsingActions(WebDriver driver, WebElement element) {
+		Actions actions = new Actions(driver);
+		actions.moveToElement(element).perform();
+	}
+
+	/**
+	 * 
+	 * @param driver
+	 * @param element This method will help us to scroll of bottom to the element by
+	 *                using actions class
+	 */
+
+	public void scrollToElementBottomUsingActions(WebDriver driver, WebElement element) {
+		Actions actions = new Actions(driver);
+		actions.moveToElement(element).perform();
+		actions.scrollByAmount(0, 100).perform();
+	}
+
+	public void scrollToElementTop(WebDriver driver, WebElement element) {
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+	}
+
+	public void clickUsingJS(WebDriver driver, WebElement element) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].click();", element);
+	}
+
 }

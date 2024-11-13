@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="11" failed="4" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[The browser is launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[Popup Handling is done]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked on Paints&Colours]]>
+    </line>
+    <line>
+      <![CDATA[Search bar is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Search Field is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[The browser is launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[Popup Handling is done]]>
+    </line>
+    <line>
+      <![CDATA[LoginPage is successfully displayed]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Entered the number]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged in]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged in]]>
+    </line>
+    <line>
+      <![CDATA[The browser is launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[Popup Handling is done]]>
+    </line>
+    <line>
+      <![CDATA[Sucessfully hovered on Paints&Colours]]>
+    </line>
+    <line>
+      <![CDATA[MeraWalaShade page is successfully displayed]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered name and email]]>
+    </line>
+    <line>
+      <![CDATA[Sucessfully clicked creative and fashionista buttons]]>
+    </line>
+    <line>
+      <![CDATA[Colour Picker Page is successfully displayed]]>
+    </line>
+    <line>
+      <![CDATA[Colour Page is dispalyed]]>
+    </line>
+    <line>
+      <![CDATA[The browser is launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[Popup Handling is done]]>
+    </line>
+    <line>
+      <![CDATA[Hovered successfully on paints and colours]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Clicked Explore Now]]>
+    </line>
+    <line>
+      <![CDATA[Successfully displayed the products of Luxury Type]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Clicked on AllButton]]>
+    </line>
+    <line>
+      <![CDATA[Successfully displayed the products of All Type]]>
+    </line>
+    <line>
+      <![CDATA[The browser is launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[Popup Handling is done]]>
+    </line>
+    <line>
+      <![CDATA[Hovered successfully on paints and colours]]>
+    </line>
+    <line>
+      <![CDATA[FAQ is displayed]]>
+    </line>
+    <line>
+      <![CDATA[The browser is launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[Popup Handling is done]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked the Cart]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked on the Shop now Button]]>
+    </line>
+    <line>
+      <![CDATA[Interrior Image Link is dispalyed]]>
+    </line>
+    <line>
+      <![CDATA[The browser is launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[Popup Handling is done]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked the Cart]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked on the Shop now Button]]>
+    </line>
+    <line>
+      <![CDATA[Interrior Image Link is dispalyed]]>
+    </line>
+    <line>
+      <![CDATA[Successfully displayed the ViewAll Products button]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked on view all products]]>
+    </line>
+    <line>
+      <![CDATA[Compare button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Product1 is clicked for comparsion]]>
+    </line>
+    <line>
+      <![CDATA[Product2 is clicked for comparsion]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked on Compare now button]]>
+    </line>
+    <line>
+      <![CDATA[Comparision of products is displayed]]>
+    </line>
+    <line>
+      <![CDATA[The browser is launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[Popup Handling is done]]>
+    </line>
+    <line>
+      <![CDATA[Sucessfully hovered on Paints&Colours]]>
+    </line>
+    <line>
+      <![CDATA[Yes Options are displayed..]]>
+    </line>
+    <line>
+      <![CDATA[The browser is launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[Popup Handling is done]]>
+    </line>
+    <line>
+      <![CDATA[Sucessfully hovered on Paints&Colours]]>
+    </line>
+    <line>
+      <![CDATA[Paint Store near me link is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Pincode is entered]]>
+    </line>
+    <line>
+      <![CDATA[Search Button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[The browser is launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[Popup Handling is done]]>
+    </line>
+    <line>
+      <![CDATA[successfully clicked]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked the Cart]]>
+    </line>
+    <line>
+      <![CDATA[successfully clicked]]>
+    </line>
+    <line>
+      <![CDATA[successfully entered the values]]>
+    </line>
+    <line>
+      <![CDATA[successfully clicked]]>
+    </line>
+    <line>
+      <![CDATA[Successfully displayed colours related to colour]]>
+    </line>
+    <line>
+      <![CDATA[The browser is launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[Popup Handling is done]]>
+    </line>
+    <line>
+      <![CDATA[successfully clicked]]>
+    </line>
+    <line>
+      <![CDATA[The browser is launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[Popup Handling is done]]>
+    </line>
+    <line>
+      <![CDATA[successfully clicked]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked the Cart]]>
+    </line>
+    <line>
+      <![CDATA[successfully clicked]]>
+    </line>
+    <line>
+      <![CDATA[successfully entered the values]]>
+    </line>
+    <line>
+      <![CDATA[successfully clicked]]>
+    </line>
+    <line>
+      <![CDATA[Successfully displayed colours related to colour]]>
+    </line>
+    <line>
+      <![CDATA[The browser is launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[Popup Handling is done]]>
+    </line>
+    <line>
+      <![CDATA[Room Type is Selected Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Arrow Button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Room is displayed]]>
+    </line>
+    <line>
+      <![CDATA[The browser is launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[Popup Handling is done]]>
+    </line>
+    <line>
+      <![CDATA[Room Type is Selected Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Arrow Button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Room is displayed]]>
+    </line>
+    <line>
+      <![CDATA[The browser is launched and url is navigated]]>
+    </line>
+    <line>
+      <![CDATA[Popup Handling is done]]>
+    </line>
+    <line>
+      <![CDATA[Room Type is Selected Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Arrow Button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Room is displayed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-13T01:08:40 IST" name="Default suite" finished-at="2024-11-13T01:12:37 IST" duration-ms="237260">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@7c9d8e2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-11-13T01:08:40 IST" name="Default test" finished-at="2024-11-13T01:12:37 IST" duration-ms="237260">
+      <class name="runners.CucumberRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.CucumberRunner@7c9d8e2]" started-at="2024-11-13T01:08:40 IST" name="setUpClass" finished-at="2024-11-13T01:08:41 IST" duration-ms="484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@40071890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@7c9d8e2]" started-at="2024-11-13T01:08:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T01:08:50 IST" duration-ms="9815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the user is able to click on Search icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["ableToClickOnSearch"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The browser is launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[Popup Handling is done]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked on Paints&Colours]]>
+            </line>
+            <line>
+              <![CDATA[Search bar is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Search Field is displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@7c9d8e2]" started-at="2024-11-13T01:08:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T01:09:31 IST" duration-ms="40187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should able to login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The browser is launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[Popup Handling is done]]>
+            </line>
+            <line>
+              <![CDATA[LoginPage is successfully displayed]]>
+            </line>
+            <line>
+              <![CDATA[Successfully Entered the number]]>
+            </line>
+            <line>
+              <![CDATA[Successfully logged in]]>
+            </line>
+            <line>
+              <![CDATA[Successfully logged in]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@7c9d8e2]" started-at="2024-11-13T01:09:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T01:09:41 IST" duration-ms="10489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the user is able to see Blend Colours Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["colourBlender"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The browser is launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[Popup Handling is done]]>
+            </line>
+            <line>
+              <![CDATA[Sucessfully hovered on Paints&Colours]]>
+            </line>
+            <line>
+              <![CDATA[MeraWalaShade page is successfully displayed]]>
+            </line>
+            <line>
+              <![CDATA[Successfully entered name and email]]>
+            </line>
+            <line>
+              <![CDATA[Sucessfully clicked creative and fashionista buttons]]>
+            </line>
+            <line>
+              <![CDATA[Colour Picker Page is successfully displayed]]>
+            </line>
+            <line>
+              <![CDATA[Colour Page is dispalyed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@7c9d8e2]" started-at="2024-11-13T01:09:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T01:09:53 IST" duration-ms="12366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the user is able to see all the products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["displayProducts"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The browser is launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[Popup Handling is done]]>
+            </line>
+            <line>
+              <![CDATA[Hovered successfully on paints and colours]]>
+            </line>
+            <line>
+              <![CDATA[Successfully Clicked Explore Now]]>
+            </line>
+            <line>
+              <![CDATA[Successfully displayed the products of Luxury Type]]>
+            </line>
+            <line>
+              <![CDATA[Successfully Clicked on AllButton]]>
+            </line>
+            <line>
+              <![CDATA[Successfully displayed the products of All Type]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@7c9d8e2]" started-at="2024-11-13T01:09:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T01:10:06 IST" duration-ms="12352" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the user is able to navigate to FAQ and expand the Question"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["expandFAQ"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <h2 tabindex="0" class="main-title focus-visible-auto-imp">...</h2> is not clickable at point (765, 17). Other element would receive the click: <a href="https://www.asianpaints.com/products/waterproofing-solutions.html" data-target="#Waterproofing" class="track_section anchor-main" tabindex="0">...</a>
+  (Session info: chrome=130.0.6723.117)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [58907fad7425c4d18ba2f13c47cadd26, clickElement {id=f.5229CEAB502F910D2823B9706811FEFB.d.ABC06AF7F7332740A70489779B9E27E8.e.324}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\Praharshitha\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51922}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51922/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (58907fad7425c4d18ba2f13c47cadd26)] -> xpath: //h2[contains(text(),'FAQs for Interior Wall Paints')]]
+Session ID: 58907fad7425c4d18ba2f13c47cadd26]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <h2 tabindex="0" class="main-title focus-visible-auto-imp">...</h2> is not clickable at point (765, 17). Other element would receive the click: <a href="https://www.asianpaints.com/products/waterproofing-solutions.html" data-target="#Waterproofing" class="track_section anchor-main" tabindex="0">...</a>
+  (Session info: chrome=130.0.6723.117)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [58907fad7425c4d18ba2f13c47cadd26, clickElement {id=f.5229CEAB502F910D2823B9706811FEFB.d.ABC06AF7F7332740A70489779B9E27E8.e.324}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\Praharshitha\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51922}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51922/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (58907fad7425c4d18ba2f13c47cadd26)] -> xpath: //h2[contains(text(),'FAQs for Interior Wall Paints')]]
+Session ID: 58907fad7425c4d18ba2f13c47cadd26
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+at stepDefinations.ExpandFAQ.click_on_plus_icon(ExpandFAQ.java:43)
+at ✽.Click on Text(file:///C:/Users/Praharshitha/eclipse-workspace/AsianPaints_project/./src/test/java/features/expandFAQ.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[The browser is launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[Popup Handling is done]]>
+            </line>
+            <line>
+              <![CDATA[Hovered successfully on paints and colours]]>
+            </line>
+            <line>
+              <![CDATA[FAQ is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@7c9d8e2]" started-at="2024-11-13T01:10:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T01:10:31 IST" duration-ms="24912" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should able to Select Multiple filters"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["filterAndCompare"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='walpaints-banner-right-section']//a[@class='animated-arrow-button trackCTA' ]"}
+  (Session info: chrome=130.0.6723.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d6ff932fa362a77c6ae750653e9e53d2, findElement {using=xpath, value=//div[@class='walpaints-banner-right-section']//a[@class='animated-arrow-button trackCTA' ]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\Praharshitha\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51972}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51972/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d6ff932fa362a77c6ae750653e9e53d2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='walpaints-banner-right-section']//a[@class='animated-arrow-button trackCTA' ]"}
+  (Session info: chrome=130.0.6723.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d6ff932fa362a77c6ae750653e9e53d2, findElement {using=xpath, value=//div[@class='walpaints-banner-right-section']//a[@class='animated-arrow-button trackCTA' ]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\Praharshitha\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51972}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51972/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d6ff932fa362a77c6ae750653e9e53d2
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy25.getAttribute(Unknown Source)
+at stepDefinations.FilterAndCompare.click_on_interior_walls(FilterAndCompare.java:61)
+at ✽.Click on Interior walls(file:///C:/Users/Praharshitha/eclipse-workspace/AsianPaints_project/./src/test/java/features/filterandCompare.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[The browser is launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[Popup Handling is done]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked the Cart]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked on the Shop now Button]]>
+            </line>
+            <line>
+              <![CDATA[Interrior Image Link is dispalyed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@7c9d8e2]" started-at="2024-11-13T01:10:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T01:10:45 IST" duration-ms="14740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should able to Compare the products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["filterAndCompare"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The browser is launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[Popup Handling is done]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked the Cart]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked on the Shop now Button]]>
+            </line>
+            <line>
+              <![CDATA[Interrior Image Link is dispalyed]]>
+            </line>
+            <line>
+              <![CDATA[Successfully displayed the ViewAll Products button]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked on view all products]]>
+            </line>
+            <line>
+              <![CDATA[Compare button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Product1 is clicked for comparsion]]>
+            </line>
+            <line>
+              <![CDATA[Product2 is clicked for comparsion]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked on Compare now button]]>
+            </line>
+            <line>
+              <![CDATA[Comparision of products is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@7c9d8e2]" started-at="2024-11-13T01:10:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T01:10:52 IST" duration-ms="6683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the user is able to hover on the PaintsAndColours"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["hoverOnPaintsAndColours"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The browser is launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[Popup Handling is done]]>
+            </line>
+            <line>
+              <![CDATA[Sucessfully hovered on Paints&Colours]]>
+            </line>
+            <line>
+              <![CDATA[Yes Options are displayed..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@7c9d8e2]" started-at="2024-11-13T01:10:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T01:11:06 IST" duration-ms="13459" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the user is able to get the correct requred address when pincode is entered"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["paintStoreNearMe"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <h4 class="d-md-block storeBlock" data-makercount="0" style=" cursor: pointer; ">...</h4> is not clickable at point (150, 45). Other element would receive the click: <img loading="eager" fetchpriority="high" height="32" width="50" alt="asian-paints-home" title="asian-paints-home" style="width: 100%; height: 100%;" src="//static.asianpaints.com/etc.clientlibs/apcolourcatalogue/clientlibs/clientlib-global-unification/resources/images/header/asian-paints-logo.webp">
+  (Session info: chrome=130.0.6723.117)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [58f724082d4b1122dd19186bf63b9a97, clickElement {id=f.E7D593A31525B88356331F986A64355D.d.EF555D532A77557AE326CD22E8C1D80E.e.322}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\Praharshitha\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52128}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52128/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (58f724082d4b1122dd19186bf63b9a97)] -> xpath: //h4[text()=' Sree Ganapathy Hardware [sgh] ']]
+Session ID: 58f724082d4b1122dd19186bf63b9a97]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <h4 class="d-md-block storeBlock" data-makercount="0" style=" cursor: pointer; ">...</h4> is not clickable at point (150, 45). Other element would receive the click: <img loading="eager" fetchpriority="high" height="32" width="50" alt="asian-paints-home" title="asian-paints-home" style="width: 100%; height: 100%;" src="//static.asianpaints.com/etc.clientlibs/apcolourcatalogue/clientlibs/clientlib-global-unification/resources/images/header/asian-paints-logo.webp">
+  (Session info: chrome=130.0.6723.117)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [58f724082d4b1122dd19186bf63b9a97, clickElement {id=f.E7D593A31525B88356331F986A64355D.d.EF555D532A77557AE326CD22E8C1D80E.e.322}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\Praharshitha\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52128}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52128/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (58f724082d4b1122dd19186bf63b9a97)] -> xpath: //h4[text()=' Sree Ganapathy Hardware [sgh] ']]
+Session ID: 58f724082d4b1122dd19186bf63b9a97
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+at stepDefinations.PaintStoresNearMe.address_should_be_displayed(PaintStoresNearMe.java:130)
+at ✽.Address should be displayed(file:///C:/Users/Praharshitha/eclipse-workspace/AsianPaints_project/./src/test/java/features/paintStroreNearMe.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[The browser is launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[Popup Handling is done]]>
+            </line>
+            <line>
+              <![CDATA[Sucessfully hovered on Paints&Colours]]>
+            </line>
+            <line>
+              <![CDATA[Paint Store near me link is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Pincode is entered]]>
+            </line>
+            <line>
+              <![CDATA[Search Button is clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@7c9d8e2]" started-at="2024-11-13T01:11:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T01:11:20 IST" duration-ms="14063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate User is able to search the colours in SearchBar"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["searchingColours"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The browser is launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[Popup Handling is done]]>
+            </line>
+            <line>
+              <![CDATA[successfully clicked]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked the Cart]]>
+            </line>
+            <line>
+              <![CDATA[successfully clicked]]>
+            </line>
+            <line>
+              <![CDATA[successfully entered the values]]>
+            </line>
+            <line>
+              <![CDATA[successfully clicked]]>
+            </line>
+            <line>
+              <![CDATA[Successfully displayed colours related to colour]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@7c9d8e2]" started-at="2024-11-13T01:11:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T01:11:28 IST" duration-ms="8289" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate User is able to search the colours in SearchBar"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["searchingColours"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <img loading="lazy" fetchpriority="auto" src="//static.asianpaints.com/etc.clientlibs/apcolourcatalogue/clientlibs/clientlib-global-unification/resources/images/header/cart-icon/cart-button.svg" alt="cart-button" title="cart-button" height="20" width="20" data-toggle="modal" data-target="#cartModal" class="iconLinks__cart cart-js-handle track_minicart"> is not clickable at point (1280, 100). Other element would receive the click: <div class="modal search-modal fade-scale in" tabindex="-1" role="dialog" id="unified-search-popup" style="display: block;">...</div>
+  (Session info: chrome=130.0.6723.117)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [89504afca6b8ceca7f6c6907f5b9cd08, clickElement {id=f.8016DD2C0CF6108C1504DAB7139B2ACF.d.89833D7F91D88DF023CC7EEE68A1ADCD.e.146}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\Praharshitha\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52246}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52246/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (89504afca6b8ceca7f6c6907f5b9cd08)] -> xpath: //img[@alt='cart-button']]
+Session ID: 89504afca6b8ceca7f6c6907f5b9cd08]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img loading="lazy" fetchpriority="auto" src="//static.asianpaints.com/etc.clientlibs/apcolourcatalogue/clientlibs/clientlib-global-unification/resources/images/header/cart-icon/cart-button.svg" alt="cart-button" title="cart-button" height="20" width="20" data-toggle="modal" data-target="#cartModal" class="iconLinks__cart cart-js-handle track_minicart"> is not clickable at point (1280, 100). Other element would receive the click: <div class="modal search-modal fade-scale in" tabindex="-1" role="dialog" id="unified-search-popup" style="display: block;">...</div>
+  (Session info: chrome=130.0.6723.117)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [89504afca6b8ceca7f6c6907f5b9cd08, clickElement {id=f.8016DD2C0CF6108C1504DAB7139B2ACF.d.89833D7F91D88DF023CC7EEE68A1ADCD.e.146}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\Praharshitha\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52246}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52246/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (89504afca6b8ceca7f6c6907f5b9cd08)] -> xpath: //img[@alt='cart-button']]
+Session ID: 89504afca6b8ceca7f6c6907f5b9cd08
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+at stepDefinations.FilterAndCompare.click_on_shopping_cart_icon(FilterAndCompare.java:33)
+at ✽.Click on shopping cart icon(file:///C:/Users/Praharshitha/eclipse-workspace/AsianPaints_project/./src/test/java/features/searchingColours.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[The browser is launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[Popup Handling is done]]>
+            </line>
+            <line>
+              <![CDATA[successfully clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@7c9d8e2]" started-at="2024-11-13T01:11:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T01:11:43 IST" duration-ms="14725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate User is able to search the colours in SearchBar"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["searchingColours"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The browser is launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[Popup Handling is done]]>
+            </line>
+            <line>
+              <![CDATA[successfully clicked]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked the Cart]]>
+            </line>
+            <line>
+              <![CDATA[successfully clicked]]>
+            </line>
+            <line>
+              <![CDATA[successfully entered the values]]>
+            </line>
+            <line>
+              <![CDATA[successfully clicked]]>
+            </line>
+            <line>
+              <![CDATA[Successfully displayed colours related to colour]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@7c9d8e2]" started-at="2024-11-13T01:11:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T01:12:12 IST" duration-ms="29679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should able to see the Wood Finish"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["woodFurnitureChange"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The browser is launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[Popup Handling is done]]>
+            </line>
+            <line>
+              <![CDATA[Room Type is Selected Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Arrow Button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Room is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@7c9d8e2]" started-at="2024-11-13T01:12:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T01:12:25 IST" duration-ms="12193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should able to see the Wood Finish"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["woodFurnitureChange"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The browser is launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[Popup Handling is done]]>
+            </line>
+            <line>
+              <![CDATA[Room Type is Selected Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Arrow Button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Room is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@7c9d8e2]" started-at="2024-11-13T01:12:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T01:12:37 IST" duration-ms="12316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should able to see the Wood Finish"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["woodFurnitureChange"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The browser is launched and url is navigated]]>
+            </line>
+            <line>
+              <![CDATA[Popup Handling is done]]>
+            </line>
+            <line>
+              <![CDATA[Room Type is Selected Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Arrow Button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Room is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.CucumberRunner@7c9d8e2]" started-at="2024-11-13T01:12:37 IST" name="tearDownClass" finished-at="2024-11-13T01:12:37 IST" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.CucumberRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

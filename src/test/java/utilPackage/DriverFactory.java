@@ -10,13 +10,13 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import utilityClasses.FileUtility;
 
 public class DriverFactory {
-	public static ThreadLocal<WebDriver> driver=new ThreadLocal();
+	public static ThreadLocal<WebDriver> driver = new ThreadLocal();
 
 	public static void setUpBrowser() throws Exception {
-		FileUtility fileUtility=new FileUtility();
-		String browserName=fileUtility.getDataFromPropertiesFiles("browser");
+		FileUtility fileUtility = new FileUtility();
+		String browserName = fileUtility.getDataFromPropertiesFiles("browser");
 //		String browserName=System.getProperty("browser","chrome");
-		String url=fileUtility.getDataFromPropertiesFiles("url");
+		String url = fileUtility.getDataFromPropertiesFiles("url");
 		if (browserName.equals("chrome")) {
 			driver.set(new ChromeDriver());
 		} else if (browserName.equals("edge")) {
@@ -30,14 +30,19 @@ public class DriverFactory {
 		driver.get().get(url);
 		driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 	}
-	
-	public static WebDriver getDriver(){
+	/**
+	 * This method help us to get the driver reference
+	 * @return
+	 */
+
+	public static WebDriver getDriver() {
 		return driver.get();
 	}
-	
-	public static void quitBrowser()
-	{
-		if(driver!=null)
-		driver.get().quit();
+	/**
+	 * this method is used to quit the browser
+	 */
+	public static void quitBrowser() {
+		if (driver != null)
+			driver.get().quit();
 	}
 }

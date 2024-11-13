@@ -1,0 +1,567 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/4/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 13 01:08:40 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>237 seconds (237260 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should able to Select Multiple filters", "filterAndCompare"<br/>
+<a href="#Output-1381386227" onClick='toggleBox("Output-1381386227", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1381386227" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1381386227">
+The browser is launched and url is navigated<br/>
+Popup Handling is done<br/>
+Successfully clicked the Cart<br/>
+Successfully clicked on the Shop now Button<br/>
+Interrior Image Link is dispalyed<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;walpaints-banner-right-section&apos;]//a[@class=&apos;animated-arrow-button trackCTA&apos; ]&quot;}
+  (Session info: chrome=130.0.6723.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d6ff932fa362a77c6ae750653e9e53d2, findElement {using=xpath, value=//div[@class=&apos;walpaints-banner-right-section&apos;]//a[@class=&apos;animated-arrow-button trackCTA&apos; ]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\Praharshitha\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51972}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51972/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d6ff932fa362a77c6ae750653e9e53d2
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.getAttribute(Unknown Source)
+	at stepDefinations.FilterAndCompare.click_on_interior_walls(FilterAndCompare.java:61)
+	at ✽.Click on Interior walls(file:///C:/Users/Praharshitha/eclipse-workspace/AsianPaints_project/./src/test/java/features/filterandCompare.feature:9)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1381386227", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1381386227'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;walpaints-banner-right-section&apos;]//a[@class=&apos;animated-arrow-button trackCTA&apos; ]&quot;}
+  (Session info: chrome=130.0.6723.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d6ff932fa362a77c6ae750653e9e53d2, findElement {using=xpath, value=//div[@class=&apos;walpaints-banner-right-section&apos;]//a[@class=&apos;animated-arrow-button trackCTA&apos; ]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\Praharshitha\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51972}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51972/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d6ff932fa362a77c6ae750653e9e53d2
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.getAttribute(Unknown Source)
+	at stepDefinations.FilterAndCompare.click_on_interior_walls(FilterAndCompare.java:61)
+	at ✽.Click on Interior walls(file:///C:/Users/Praharshitha/eclipse-workspace/AsianPaints_project/./src/test/java/features/filterandCompare.feature:9)
+</pre></div></td>
+<td>24</td>
+<td>runners.CucumberRunner@7c9d8e2</td></tr>
+<tr>
+<td title='runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the user is able to navigate to FAQ and expand the Question", "expandFAQ"<br/>
+<a href="#Output-2143108725" onClick='toggleBox("Output-2143108725", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2143108725" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2143108725">
+The browser is launched and url is navigated<br/>
+Popup Handling is done<br/>
+Hovered successfully on paints and colours<br/>
+FAQ is displayed<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;h2 tabindex=&quot;0&quot; class=&quot;main-title focus-visible-auto-imp&quot;&gt;...&lt;/h2&gt; is not clickable at point (765, 17). Other element would receive the click: &lt;a href=&quot;https://www.asianpaints.com/products/waterproofing-solutions.html&quot; data-target=&quot;#Waterproofing&quot; class=&quot;track_section anchor-main&quot; tabindex=&quot;0&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=130.0.6723.117)
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [58907fad7425c4d18ba2f13c47cadd26, clickElement {id=f.5229CEAB502F910D2823B9706811FEFB.d.ABC06AF7F7332740A70489779B9E27E8.e.324}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\Praharshitha\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51922}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51922/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (58907fad7425c4d18ba2f13c47cadd26)] -&gt; xpath: //h2[contains(text(),&apos;FAQs for Interior Wall Paints&apos;)]]
+Session ID: 58907fad7425c4d18ba2f13c47cadd26
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at stepDefinations.ExpandFAQ.click_on_plus_icon(ExpandFAQ.java:43)
+	at ✽.Click on Text(file:///C:/Users/Praharshitha/eclipse-workspace/AsianPaints_project/./src/test/java/features/expandFAQ.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2143108725", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2143108725'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;h2 tabindex=&quot;0&quot; class=&quot;main-title focus-visible-auto-imp&quot;&gt;...&lt;/h2&gt; is not clickable at point (765, 17). Other element would receive the click: &lt;a href=&quot;https://www.asianpaints.com/products/waterproofing-solutions.html&quot; data-target=&quot;#Waterproofing&quot; class=&quot;track_section anchor-main&quot; tabindex=&quot;0&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=130.0.6723.117)
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [58907fad7425c4d18ba2f13c47cadd26, clickElement {id=f.5229CEAB502F910D2823B9706811FEFB.d.ABC06AF7F7332740A70489779B9E27E8.e.324}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\Praharshitha\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51922}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51922/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (58907fad7425c4d18ba2f13c47cadd26)] -&gt; xpath: //h2[contains(text(),&apos;FAQs for Interior Wall Paints&apos;)]]
+Session ID: 58907fad7425c4d18ba2f13c47cadd26
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at stepDefinations.ExpandFAQ.click_on_plus_icon(ExpandFAQ.java:43)
+	at ✽.Click on Text(file:///C:/Users/Praharshitha/eclipse-workspace/AsianPaints_project/./src/test/java/features/expandFAQ.feature:7)
+</pre></div></td>
+<td>12</td>
+<td>runners.CucumberRunner@7c9d8e2</td></tr>
+<tr>
+<td title='runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate User is able to search the colours in SearchBar", "searchingColours"<br/>
+<a href="#Output-493177695" onClick='toggleBox("Output-493177695", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-493177695" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-493177695">
+The browser is launched and url is navigated<br/>
+Popup Handling is done<br/>
+successfully clicked<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;img loading=&quot;lazy&quot; fetchpriority=&quot;auto&quot; src=&quot;//static.asianpaints.com/etc.clientlibs/apcolourcatalogue/clientlibs/clientlib-global-unification/resources/images/header/cart-icon/cart-button.svg&quot; alt=&quot;cart-button&quot; title=&quot;cart-button&quot; height=&quot;20&quot; width=&quot;20&quot; data-toggle=&quot;modal&quot; data-target=&quot;#cartModal&quot; class=&quot;iconLinks__cart cart-js-handle track_minicart&quot;&gt; is not clickable at point (1280, 100). Other element would receive the click: &lt;div class=&quot;modal search-modal fade-scale in&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; id=&quot;unified-search-popup&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=130.0.6723.117)
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [89504afca6b8ceca7f6c6907f5b9cd08, clickElement {id=f.8016DD2C0CF6108C1504DAB7139B2ACF.d.89833D7F91D88DF023CC7EEE68A1ADCD.e.146}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\Praharshitha\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52246}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52246/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (89504afca6b8ceca7f6c6907f5b9cd08)] -&gt; xpath: //img[@alt=&apos;cart-button&apos;]]
+Session ID: 89504afca6b8ceca7f6c6907f5b9cd08
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at stepDefinations.FilterAndCompare.click_on_shopping_cart_icon(FilterAndCompare.java:33)
+	at ✽.Click on shopping cart icon(file:///C:/Users/Praharshitha/eclipse-workspace/AsianPaints_project/./src/test/java/features/searchingColours.feature:6)
+</pre></div><a href='#' onClick='toggleBox("stack-trace493177695", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace493177695'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;img loading=&quot;lazy&quot; fetchpriority=&quot;auto&quot; src=&quot;//static.asianpaints.com/etc.clientlibs/apcolourcatalogue/clientlibs/clientlib-global-unification/resources/images/header/cart-icon/cart-button.svg&quot; alt=&quot;cart-button&quot; title=&quot;cart-button&quot; height=&quot;20&quot; width=&quot;20&quot; data-toggle=&quot;modal&quot; data-target=&quot;#cartModal&quot; class=&quot;iconLinks__cart cart-js-handle track_minicart&quot;&gt; is not clickable at point (1280, 100). Other element would receive the click: &lt;div class=&quot;modal search-modal fade-scale in&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; id=&quot;unified-search-popup&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=130.0.6723.117)
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [89504afca6b8ceca7f6c6907f5b9cd08, clickElement {id=f.8016DD2C0CF6108C1504DAB7139B2ACF.d.89833D7F91D88DF023CC7EEE68A1ADCD.e.146}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\Praharshitha\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52246}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52246/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (89504afca6b8ceca7f6c6907f5b9cd08)] -&gt; xpath: //img[@alt=&apos;cart-button&apos;]]
+Session ID: 89504afca6b8ceca7f6c6907f5b9cd08
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at stepDefinations.FilterAndCompare.click_on_shopping_cart_icon(FilterAndCompare.java:33)
+	at ✽.Click on shopping cart icon(file:///C:/Users/Praharshitha/eclipse-workspace/AsianPaints_project/./src/test/java/features/searchingColours.feature:6)
+</pre></div></td>
+<td>8</td>
+<td>runners.CucumberRunner@7c9d8e2</td></tr>
+<tr>
+<td title='runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the user is able to get the correct requred address when pincode is entered", "paintStoreNearMe"<br/>
+<a href="#Output-219962610" onClick='toggleBox("Output-219962610", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-219962610" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-219962610">
+The browser is launched and url is navigated<br/>
+Popup Handling is done<br/>
+Sucessfully hovered on Paints&Colours<br/>
+Paint Store near me link is clicked<br/>
+Pincode is entered<br/>
+Search Button is clicked<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;h4 class=&quot;d-md-block storeBlock&quot; data-makercount=&quot;0&quot; style=&quot; cursor: pointer; &quot;&gt;...&lt;/h4&gt; is not clickable at point (150, 45). Other element would receive the click: &lt;img loading=&quot;eager&quot; fetchpriority=&quot;high&quot; height=&quot;32&quot; width=&quot;50&quot; alt=&quot;asian-paints-home&quot; title=&quot;asian-paints-home&quot; style=&quot;width: 100%; height: 100%;&quot; src=&quot;//static.asianpaints.com/etc.clientlibs/apcolourcatalogue/clientlibs/clientlib-global-unification/resources/images/header/asian-paints-logo.webp&quot;&gt;
+  (Session info: chrome=130.0.6723.117)
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [58f724082d4b1122dd19186bf63b9a97, clickElement {id=f.E7D593A31525B88356331F986A64355D.d.EF555D532A77557AE326CD22E8C1D80E.e.322}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\Praharshitha\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52128}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52128/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (58f724082d4b1122dd19186bf63b9a97)] -&gt; xpath: //h4[text()=&apos; Sree Ganapathy Hardware [sgh] &apos;]]
+Session ID: 58f724082d4b1122dd19186bf63b9a97
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at stepDefinations.PaintStoresNearMe.address_should_be_displayed(PaintStoresNearMe.java:130)
+	at ✽.Address should be displayed(file:///C:/Users/Praharshitha/eclipse-workspace/AsianPaints_project/./src/test/java/features/paintStroreNearMe.feature:9)
+</pre></div><a href='#' onClick='toggleBox("stack-trace219962610", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace219962610'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;h4 class=&quot;d-md-block storeBlock&quot; data-makercount=&quot;0&quot; style=&quot; cursor: pointer; &quot;&gt;...&lt;/h4&gt; is not clickable at point (150, 45). Other element would receive the click: &lt;img loading=&quot;eager&quot; fetchpriority=&quot;high&quot; height=&quot;32&quot; width=&quot;50&quot; alt=&quot;asian-paints-home&quot; title=&quot;asian-paints-home&quot; style=&quot;width: 100%; height: 100%;&quot; src=&quot;//static.asianpaints.com/etc.clientlibs/apcolourcatalogue/clientlibs/clientlib-global-unification/resources/images/header/asian-paints-logo.webp&quot;&gt;
+  (Session info: chrome=130.0.6723.117)
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [58f724082d4b1122dd19186bf63b9a97, clickElement {id=f.E7D593A31525B88356331F986A64355D.d.EF555D532A77557AE326CD22E8C1D80E.e.322}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\Praharshitha\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52128}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52128/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (58f724082d4b1122dd19186bf63b9a97)] -&gt; xpath: //h4[text()=&apos; Sree Ganapathy Hardware [sgh] &apos;]]
+Session ID: 58f724082d4b1122dd19186bf63b9a97
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at stepDefinations.PaintStoresNearMe.address_should_be_displayed(PaintStoresNearMe.java:130)
+	at ✽.Address should be displayed(file:///C:/Users/Praharshitha/eclipse-workspace/AsianPaints_project/./src/test/java/features/paintStroreNearMe.feature:9)
+</pre></div></td>
+<td>13</td>
+<td>runners.CucumberRunner@7c9d8e2</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should able to see the Wood Finish", "woodFurnitureChange"<br/>
+<a href="#Output-1549563980" onClick='toggleBox("Output-1549563980", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1549563980" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1549563980">
+The browser is launched and url is navigated<br/>
+Popup Handling is done<br/>
+Room Type is Selected Successfully<br/>
+Arrow Button is clicked<br/>
+Room is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>29</td>
+<td>runners.CucumberRunner@7c9d8e2</td></tr>
+<tr>
+<td title='runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate User is able to search the colours in SearchBar", "searchingColours"<br/>
+<a href="#Output-486575713" onClick='toggleBox("Output-486575713", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-486575713" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-486575713">
+The browser is launched and url is navigated<br/>
+Popup Handling is done<br/>
+successfully clicked<br/>
+Successfully clicked the Cart<br/>
+successfully clicked<br/>
+successfully entered the values<br/>
+successfully clicked<br/>
+Successfully displayed colours related to colour<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>runners.CucumberRunner@7c9d8e2</td></tr>
+<tr>
+<td title='runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the user is able to click on Search icon", "ableToClickOnSearch"<br/>
+<a href="#Output-1933224408" onClick='toggleBox("Output-1933224408", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1933224408" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1933224408">
+The browser is launched and url is navigated<br/>
+Popup Handling is done<br/>
+Successfully clicked on Paints&Colours<br/>
+Search bar is displayed<br/>
+Search Field is displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>runners.CucumberRunner@7c9d8e2</td></tr>
+<tr>
+<td title='runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate User is able to search the colours in SearchBar", "searchingColours"<br/>
+<a href="#Output-1406696237" onClick='toggleBox("Output-1406696237", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1406696237" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1406696237">
+The browser is launched and url is navigated<br/>
+Popup Handling is done<br/>
+successfully clicked<br/>
+Successfully clicked the Cart<br/>
+successfully clicked<br/>
+successfully entered the values<br/>
+successfully clicked<br/>
+Successfully displayed colours related to colour<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>runners.CucumberRunner@7c9d8e2</td></tr>
+<tr>
+<td title='runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should able to see the Wood Finish", "woodFurnitureChange"<br/>
+<a href="#Output-1053172033" onClick='toggleBox("Output-1053172033", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1053172033" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1053172033">
+The browser is launched and url is navigated<br/>
+Popup Handling is done<br/>
+Room Type is Selected Successfully<br/>
+Arrow Button is clicked<br/>
+Room is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>runners.CucumberRunner@7c9d8e2</td></tr>
+<tr>
+<td title='runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should able to see the Wood Finish", "woodFurnitureChange"<br/>
+<a href="#Output-467970019" onClick='toggleBox("Output-467970019", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-467970019" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-467970019">
+The browser is launched and url is navigated<br/>
+Popup Handling is done<br/>
+Room Type is Selected Successfully<br/>
+Arrow Button is clicked<br/>
+Room is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>runners.CucumberRunner@7c9d8e2</td></tr>
+<tr>
+<td title='runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should able to login", "login"<br/>
+<a href="#Output-1365533388" onClick='toggleBox("Output-1365533388", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1365533388" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1365533388">
+The browser is launched and url is navigated<br/>
+Popup Handling is done<br/>
+LoginPage is successfully displayed<br/>
+Successfully Entered the number<br/>
+Successfully logged in<br/>
+Successfully logged in<br/>
+</div>
+</td>
+<td></td>
+<td>40</td>
+<td>runners.CucumberRunner@7c9d8e2</td></tr>
+<tr>
+<td title='runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should able to Compare the products", "filterAndCompare"<br/>
+<a href="#Output-109767760" onClick='toggleBox("Output-109767760", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-109767760" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-109767760">
+The browser is launched and url is navigated<br/>
+Popup Handling is done<br/>
+Successfully clicked the Cart<br/>
+Successfully clicked on the Shop now Button<br/>
+Interrior Image Link is dispalyed<br/>
+Successfully displayed the ViewAll Products button<br/>
+Successfully clicked on view all products<br/>
+Compare button is clicked<br/>
+Product1 is clicked for comparsion<br/>
+Product2 is clicked for comparsion<br/>
+Successfully clicked on Compare now button<br/>
+Comparision of products is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>runners.CucumberRunner@7c9d8e2</td></tr>
+<tr>
+<td title='runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the user is able to hover on the PaintsAndColours", "hoverOnPaintsAndColours"<br/>
+<a href="#Output-1222637172" onClick='toggleBox("Output-1222637172", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1222637172" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1222637172">
+The browser is launched and url is navigated<br/>
+Popup Handling is done<br/>
+Sucessfully hovered on Paints&Colours<br/>
+Yes Options are displayed..<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>runners.CucumberRunner@7c9d8e2</td></tr>
+<tr>
+<td title='runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the user is able to see all the products", "displayProducts"<br/>
+<a href="#Output-1374664497" onClick='toggleBox("Output-1374664497", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1374664497" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1374664497">
+The browser is launched and url is navigated<br/>
+Popup Handling is done<br/>
+Hovered successfully on paints and colours<br/>
+Successfully Clicked Explore Now<br/>
+Successfully displayed the products of Luxury Type<br/>
+Successfully Clicked on AllButton<br/>
+Successfully displayed the products of All Type<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>runners.CucumberRunner@7c9d8e2</td></tr>
+<tr>
+<td title='runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the user is able to see Blend Colours Page", "colourBlender"<br/>
+<a href="#Output-1645557354" onClick='toggleBox("Output-1645557354", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1645557354" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1645557354">
+The browser is launched and url is navigated<br/>
+Popup Handling is done<br/>
+Sucessfully hovered on Paints&Colours<br/>
+MeraWalaShade page is successfully displayed<br/>
+Successfully entered name and email<br/>
+Sucessfully clicked creative and fashionista buttons<br/>
+Colour Picker Page is successfully displayed<br/>
+Colour Page is dispalyed<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runners.CucumberRunner@7c9d8e2</td></tr>
+</table><p>
+</body>
+</html>

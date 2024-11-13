@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\Praharshitha\AppData\Local\Temp\testng-eclipse-2122252605\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods, 4 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User should able to Select Multiple filters&quot;, &quot;filterAndCompare&quot;)">runScenario("User should able to Select Multiple filters", "filterAndCompare")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate the user is able to navigate to FAQ and expand the Question&quot;, &quot;expandFAQ&quot;)">runScenario("Validate the user is able to navigate to FAQ and expand the Question", "expandFAQ")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate User is able to search the colours in SearchBar&quot;, &quot;searchingColours&quot;)">runScenario("Validate User is able to search the colours in SearchBar", "searchingColours")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate the user is able to get the correct requred address when pincode is entered&quot;, &quot;paintStoreN...)">runScenario("Validate the user is able to get the correct requred address when pincode is entered", "paintStoreN...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User should able to see the Wood Finish&quot;, &quot;woodFurnitureChange&quot;)">runScenario("User should able to see the Wood Finish", "woodFurnitureChange")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate User is able to search the colours in SearchBar&quot;, &quot;searchingColours&quot;)">runScenario("Validate User is able to search the colours in SearchBar", "searchingColours")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate the user is able to click on Search icon&quot;, &quot;ableToClickOnSearch&quot;)">runScenario("Validate the user is able to click on Search icon", "ableToClickOnSearch")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate User is able to search the colours in SearchBar&quot;, &quot;searchingColours&quot;)">runScenario("Validate User is able to search the colours in SearchBar", "searchingColours")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User should able to see the Wood Finish&quot;, &quot;woodFurnitureChange&quot;)">runScenario("User should able to see the Wood Finish", "woodFurnitureChange")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User should able to see the Wood Finish&quot;, &quot;woodFurnitureChange&quot;)">runScenario("User should able to see the Wood Finish", "woodFurnitureChange")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User should able to login&quot;, &quot;login&quot;)">runScenario("User should able to login", "login")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User should able to Compare the products&quot;, &quot;filterAndCompare&quot;)">runScenario("User should able to Compare the products", "filterAndCompare")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate the user is able to hover on the PaintsAndColours&quot;, &quot;hoverOnPaintsAndColours&quot;)">runScenario("Validate the user is able to hover on the PaintsAndColours", "hoverOnPaintsAndColours")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate the user is able to see all the products&quot;, &quot;displayProducts&quot;)">runScenario("Validate the user is able to see all the products", "displayProducts")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.CucumberRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate the user is able to see Blend Colours Page&quot;, &quot;colourBlender&quot;)">runScenario("Validate the user is able to see Blend Colours Page", "colourBlender")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">runners.CucumberRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User should able to Select Multiple filters&quot;, &quot;filterAndCompare&quot;)">
+                  </a> <!-- runScenario("User should able to Select Multiple filters", "filterAndCompare") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User should able to Select Multiple filters","filterAndCompare")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;walpaints-banner-right-section&apos;]//a[@class=&apos;animated-arrow-button trackCTA&apos; ]&quot;}
+  (Session info: chrome=130.0.6723.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d6ff932fa362a77c6ae750653e9e53d2, findElement {using=xpath, value=//div[@class=&apos;walpaints-banner-right-section&apos;]//a[@class=&apos;animated-arrow-button trackCTA&apos; ]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\Praharshitha\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51972}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51972/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d6ff932fa362a77c6ae750653e9e53d2
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.getAttribute(Unknown Source)
+	at stepDefinations.FilterAndCompare.click_on_interior_walls(FilterAndCompare.java:61)
+	at ✽.Click on Interior walls(file:///C:/Users/Praharshitha/eclipse-workspace/AsianPaints_project/./src/test/java/features/filterandCompare.feature:9)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate the user is able to navigate to FAQ and expand the Question&quot;, &quot;expandFAQ&quot;)">
+                  </a> <!-- runScenario("Validate the user is able to navigate to FAQ and expand the Question", "expandFAQ") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate the user is able to navigate to FAQ and expand the Question","expandFAQ")</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;h2 tabindex=&quot;0&quot; class=&quot;main-title focus-visible-auto-imp&quot;&gt;...&lt;/h2&gt; is not clickable at point (765, 17). Other element would receive the click: &lt;a href=&quot;https://www.asianpaints.com/products/waterproofing-solutions.html&quot; data-target=&quot;#Waterproofing&quot; class=&quot;track_section anchor-main&quot; tabindex=&quot;0&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=130.0.6723.117)
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [58907fad7425c4d18ba2f13c47cadd26, clickElement {id=f.5229CEAB502F910D2823B9706811FEFB.d.ABC06AF7F7332740A70489779B9E27E8.e.324}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\Praharshitha\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51922}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51922/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (58907fad7425c4d18ba2f13c47cadd26)] -&gt; xpath: //h2[contains(text(),&apos;FAQs for Interior Wall Paints&apos;)]]
+Session ID: 58907fad7425c4d18ba2f13c47cadd26
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at stepDefinations.ExpandFAQ.click_on_plus_icon(ExpandFAQ.java:43)
+	at ✽.Click on Text(file:///C:/Users/Praharshitha/eclipse-workspace/AsianPaints_project/./src/test/java/features/expandFAQ.feature:7)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate User is able to search the colours in SearchBar&quot;, &quot;searchingColours&quot;)">
+                  </a> <!-- runScenario("Validate User is able to search the colours in SearchBar", "searchingColours") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate User is able to search the colours in SearchBar","searchingColours")</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;img loading=&quot;lazy&quot; fetchpriority=&quot;auto&quot; src=&quot;//static.asianpaints.com/etc.clientlibs/apcolourcatalogue/clientlibs/clientlib-global-unification/resources/images/header/cart-icon/cart-button.svg&quot; alt=&quot;cart-button&quot; title=&quot;cart-button&quot; height=&quot;20&quot; width=&quot;20&quot; data-toggle=&quot;modal&quot; data-target=&quot;#cartModal&quot; class=&quot;iconLinks__cart cart-js-handle track_minicart&quot;&gt; is not clickable at point (1280, 100). Other element would receive the click: &lt;div class=&quot;modal search-modal fade-scale in&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; id=&quot;unified-search-popup&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=130.0.6723.117)
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [89504afca6b8ceca7f6c6907f5b9cd08, clickElement {id=f.8016DD2C0CF6108C1504DAB7139B2ACF.d.89833D7F91D88DF023CC7EEE68A1ADCD.e.146}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\Praharshitha\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52246}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52246/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (89504afca6b8ceca7f6c6907f5b9cd08)] -&gt; xpath: //img[@alt=&apos;cart-button&apos;]]
+Session ID: 89504afca6b8ceca7f6c6907f5b9cd08
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at stepDefinations.FilterAndCompare.click_on_shopping_cart_icon(FilterAndCompare.java:33)
+	at ✽.Click on shopping cart icon(file:///C:/Users/Praharshitha/eclipse-workspace/AsianPaints_project/./src/test/java/features/searchingColours.feature:6)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate the user is able to get the correct requred address when pincode is entered&quot;, &quot;paintStoreN...)">
+                  </a> <!-- runScenario("Validate the user is able to get the correct requred address when pincode is entered", "paintStoreN...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate the user is able to get the correct requred address when pincode is entered","paintStoreNearMe")</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;h4 class=&quot;d-md-block storeBlock&quot; data-makercount=&quot;0&quot; style=&quot; cursor: pointer; &quot;&gt;...&lt;/h4&gt; is not clickable at point (150, 45). Other element would receive the click: &lt;img loading=&quot;eager&quot; fetchpriority=&quot;high&quot; height=&quot;32&quot; width=&quot;50&quot; alt=&quot;asian-paints-home&quot; title=&quot;asian-paints-home&quot; style=&quot;width: 100%; height: 100%;&quot; src=&quot;//static.asianpaints.com/etc.clientlibs/apcolourcatalogue/clientlibs/clientlib-global-unification/resources/images/header/asian-paints-logo.webp&quot;&gt;
+  (Session info: chrome=130.0.6723.117)
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [58f724082d4b1122dd19186bf63b9a97, clickElement {id=f.E7D593A31525B88356331F986A64355D.d.EF555D532A77557AE326CD22E8C1D80E.e.322}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\Praharshitha\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52128}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52128/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (58f724082d4b1122dd19186bf63b9a97)] -&gt; xpath: //h4[text()=&apos; Sree Ganapathy Hardware [sgh] &apos;]]
+Session ID: 58f724082d4b1122dd19186bf63b9a97
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at stepDefinations.PaintStoresNearMe.address_should_be_displayed(PaintStoresNearMe.java:130)
+	at ✽.Address should be displayed(file:///C:/Users/Praharshitha/eclipse-workspace/AsianPaints_project/./src/test/java/features/paintStroreNearMe.feature:9)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">runners.CucumberRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User should able to see the Wood Finish&quot;, &quot;woodFurnitureChange&quot;)">
+                  </a> <!-- runScenario("User should able to see the Wood Finish", "woodFurnitureChange") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User should able to see the Wood Finish","woodFurnitureChange")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate User is able to search the colours in SearchBar&quot;, &quot;searchingColours&quot;)">
+                  </a> <!-- runScenario("Validate User is able to search the colours in SearchBar", "searchingColours") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate User is able to search the colours in SearchBar","searchingColours")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate the user is able to click on Search icon&quot;, &quot;ableToClickOnSearch&quot;)">
+                  </a> <!-- runScenario("Validate the user is able to click on Search icon", "ableToClickOnSearch") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate the user is able to click on Search icon","ableToClickOnSearch")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate User is able to search the colours in SearchBar&quot;, &quot;searchingColours&quot;)">
+                  </a> <!-- runScenario("Validate User is able to search the colours in SearchBar", "searchingColours") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate User is able to search the colours in SearchBar","searchingColours")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User should able to see the Wood Finish&quot;, &quot;woodFurnitureChange&quot;)">
+                  </a> <!-- runScenario("User should able to see the Wood Finish", "woodFurnitureChange") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User should able to see the Wood Finish","woodFurnitureChange")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User should able to see the Wood Finish&quot;, &quot;woodFurnitureChange&quot;)">
+                  </a> <!-- runScenario("User should able to see the Wood Finish", "woodFurnitureChange") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User should able to see the Wood Finish","woodFurnitureChange")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User should able to login&quot;, &quot;login&quot;)">
+                  </a> <!-- runScenario("User should able to login", "login") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User should able to login","login")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User should able to Compare the products&quot;, &quot;filterAndCompare&quot;)">
+                  </a> <!-- runScenario("User should able to Compare the products", "filterAndCompare") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User should able to Compare the products","filterAndCompare")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate the user is able to hover on the PaintsAndColours&quot;, &quot;hoverOnPaintsAndColours&quot;)">
+                  </a> <!-- runScenario("Validate the user is able to hover on the PaintsAndColours", "hoverOnPaintsAndColours") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate the user is able to hover on the PaintsAndColours","hoverOnPaintsAndColours")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate the user is able to see all the products&quot;, &quot;displayProducts&quot;)">
+                  </a> <!-- runScenario("Validate the user is able to see all the products", "displayProducts") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate the user is able to see all the products","displayProducts")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate the user is able to see Blend Colours Page&quot;, &quot;colourBlender&quot;)">
+                  </a> <!-- runScenario("Validate the user is able to see Blend Colours Page", "colourBlender") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate the user is able to see Blend Colours Page","colourBlender")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Praharshitha\AppData\Local\Temp\testng-eclipse-2122252605\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;runners.CucumberRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'runners.CucumberRunner')
+data.setCell(0, 3, 40187);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'runners.CucumberRunner')
+data.setCell(1, 3, 29679);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'runners.CucumberRunner')
+data.setCell(2, 3, 24912);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'runners.CucumberRunner')
+data.setCell(3, 3, 14740);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'runners.CucumberRunner')
+data.setCell(4, 3, 14725);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'runners.CucumberRunner')
+data.setCell(5, 3, 14063);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'runners.CucumberRunner')
+data.setCell(6, 3, 13459);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'runners.CucumberRunner')
+data.setCell(7, 3, 12366);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'runners.CucumberRunner')
+data.setCell(8, 3, 12352);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'runners.CucumberRunner')
+data.setCell(9, 3, 12316);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'runners.CucumberRunner')
+data.setCell(10, 3, 12193);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'runners.CucumberRunner')
+data.setCell(11, 3, 10489);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'runners.CucumberRunner')
+data.setCell(12, 3, 9815);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'runners.CucumberRunner')
+data.setCell(13, 3, 8289);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'runners.CucumberRunner')
+data.setCell(14, 3, 6683);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("User should able to see the Wood Finish", "woodFurnitureChange")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The browser is launched and url is navigated</span>
+                <span class="reporter-method-output">Popup Handling is done</span>
+                <span class="reporter-method-output">Room Type is Selected Successfully</span>
+                <span class="reporter-method-output">Arrow Button is clicked</span>
+                <span class="reporter-method-output">Room is displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Validate User is able to search the colours in SearchBar", "searchingColours")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The browser is launched and url is navigated</span>
+                <span class="reporter-method-output">Popup Handling is done</span>
+                <span class="reporter-method-output">successfully clicked</span>
+                <span class="reporter-method-output">Successfully clicked the Cart</span>
+                <span class="reporter-method-output">successfully clicked</span>
+                <span class="reporter-method-output">successfully entered the values</span>
+                <span class="reporter-method-output">successfully clicked</span>
+                <span class="reporter-method-output">Successfully displayed colours related to colour</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Validate the user is able to click on Search icon", "ableToClickOnSearch")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The browser is launched and url is navigated</span>
+                <span class="reporter-method-output">Popup Handling is done</span>
+                <span class="reporter-method-output">Successfully clicked on Paints&Colours</span>
+                <span class="reporter-method-output">Search bar is displayed</span>
+                <span class="reporter-method-output">Search Field is displayed successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Validate User is able to search the colours in SearchBar", "searchingColours")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The browser is launched and url is navigated</span>
+                <span class="reporter-method-output">Popup Handling is done</span>
+                <span class="reporter-method-output">successfully clicked</span>
+                <span class="reporter-method-output">Successfully clicked the Cart</span>
+                <span class="reporter-method-output">successfully clicked</span>
+                <span class="reporter-method-output">successfully entered the values</span>
+                <span class="reporter-method-output">successfully clicked</span>
+                <span class="reporter-method-output">Successfully displayed colours related to colour</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("User should able to see the Wood Finish", "woodFurnitureChange")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The browser is launched and url is navigated</span>
+                <span class="reporter-method-output">Popup Handling is done</span>
+                <span class="reporter-method-output">Room Type is Selected Successfully</span>
+                <span class="reporter-method-output">Arrow Button is clicked</span>
+                <span class="reporter-method-output">Room is displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("User should able to see the Wood Finish", "woodFurnitureChange")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The browser is launched and url is navigated</span>
+                <span class="reporter-method-output">Popup Handling is done</span>
+                <span class="reporter-method-output">Room Type is Selected Successfully</span>
+                <span class="reporter-method-output">Arrow Button is clicked</span>
+                <span class="reporter-method-output">Room is displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("User should able to login", "login")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The browser is launched and url is navigated</span>
+                <span class="reporter-method-output">Popup Handling is done</span>
+                <span class="reporter-method-output">LoginPage is successfully displayed</span>
+                <span class="reporter-method-output">Successfully Entered the number</span>
+                <span class="reporter-method-output">Successfully logged in</span>
+                <span class="reporter-method-output">Successfully logged in</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("User should able to Compare the products", "filterAndCompare")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The browser is launched and url is navigated</span>
+                <span class="reporter-method-output">Popup Handling is done</span>
+                <span class="reporter-method-output">Successfully clicked the Cart</span>
+                <span class="reporter-method-output">Successfully clicked on the Shop now Button</span>
+                <span class="reporter-method-output">Interrior Image Link is dispalyed</span>
+                <span class="reporter-method-output">Successfully displayed the ViewAll Products button</span>
+                <span class="reporter-method-output">Successfully clicked on view all products</span>
+                <span class="reporter-method-output">Compare button is clicked</span>
+                <span class="reporter-method-output">Product1 is clicked for comparsion</span>
+                <span class="reporter-method-output">Product2 is clicked for comparsion</span>
+                <span class="reporter-method-output">Successfully clicked on Compare now button</span>
+                <span class="reporter-method-output">Comparision of products is displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Validate the user is able to hover on the PaintsAndColours", "hoverOnPaintsAndColours")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The browser is launched and url is navigated</span>
+                <span class="reporter-method-output">Popup Handling is done</span>
+                <span class="reporter-method-output">Sucessfully hovered on Paints&Colours</span>
+                <span class="reporter-method-output">Yes Options are displayed..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Validate the user is able to see all the products", "displayProducts")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The browser is launched and url is navigated</span>
+                <span class="reporter-method-output">Popup Handling is done</span>
+                <span class="reporter-method-output">Hovered successfully on paints and colours</span>
+                <span class="reporter-method-output">Successfully Clicked Explore Now</span>
+                <span class="reporter-method-output">Successfully displayed the products of Luxury Type</span>
+                <span class="reporter-method-output">Successfully Clicked on AllButton</span>
+                <span class="reporter-method-output">Successfully displayed the products of All Type</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Validate the user is able to see Blend Colours Page", "colourBlender")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The browser is launched and url is navigated</span>
+                <span class="reporter-method-output">Popup Handling is done</span>
+                <span class="reporter-method-output">Sucessfully hovered on Paints&Colours</span>
+                <span class="reporter-method-output">MeraWalaShade page is successfully displayed</span>
+                <span class="reporter-method-output">Successfully entered name and email</span>
+                <span class="reporter-method-output">Sucessfully clicked creative and fashionista buttons</span>
+                <span class="reporter-method-output">Colour Picker Page is successfully displayed</span>
+                <span class="reporter-method-output">Colour Page is dispalyed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("User should able to Select Multiple filters", "filterAndCompare")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The browser is launched and url is navigated</span>
+                <span class="reporter-method-output">Popup Handling is done</span>
+                <span class="reporter-method-output">Successfully clicked the Cart</span>
+                <span class="reporter-method-output">Successfully clicked on the Shop now Button</span>
+                <span class="reporter-method-output">Interrior Image Link is dispalyed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Validate the user is able to navigate to FAQ and expand the Question", "expandFAQ")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The browser is launched and url is navigated</span>
+                <span class="reporter-method-output">Popup Handling is done</span>
+                <span class="reporter-method-output">Hovered successfully on paints and colours</span>
+                <span class="reporter-method-output">FAQ is displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Validate User is able to search the colours in SearchBar", "searchingColours")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The browser is launched and url is navigated</span>
+                <span class="reporter-method-output">Popup Handling is done</span>
+                <span class="reporter-method-output">successfully clicked</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">runScenario("Validate the user is able to get the correct requred address when pincode is entered", "paintStoreN...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The browser is launched and url is navigated</span>
+                <span class="reporter-method-output">Popup Handling is done</span>
+                <span class="reporter-method-output">Sucessfully hovered on Paints&Colours</span>
+                <span class="reporter-method-output">Paint Store near me link is clicked</span>
+                <span class="reporter-method-output">Pincode is entered</span>
+                <span class="reporter-method-output">Search Button is clicked</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">runners.CucumberRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@40071890)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate the user is able to click on Search icon", "ableToClickOnSearch")</span>
+                <span class="method-start">494 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User should able to login", "login")</span>
+                <span class="method-start">10315 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate the user is able to see Blend Colours Page", "colourBlender")</span>
+                <span class="method-start">50504 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate the user is able to see all the products", "displayProducts")</span>
+                <span class="method-start">60994 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Validate the user is able to navigate to FAQ and expand the Question", "expandFAQ")</span>
+                <span class="method-start">73361 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("User should able to Select Multiple filters", "filterAndCompare")</span>
+                <span class="method-start">85716 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User should able to Compare the products", "filterAndCompare")</span>
+                <span class="method-start">110632 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate the user is able to hover on the PaintsAndColours", "hoverOnPaintsAndColours")</span>
+                <span class="method-start">125374 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Validate the user is able to get the correct requred address when pincode is entered", "paintStoreN...)</span>
+                <span class="method-start">132059 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate User is able to search the colours in SearchBar", "searchingColours")</span>
+                <span class="method-start">145520 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Validate User is able to search the colours in SearchBar", "searchingColours")</span>
+                <span class="method-start">159584 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate User is able to search the colours in SearchBar", "searchingColours")</span>
+                <span class="method-start">167874 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User should able to see the Wood Finish", "woodFurnitureChange")</span>
+                <span class="method-start">182600 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User should able to see the Wood Finish", "woodFurnitureChange")</span>
+                <span class="method-start">212281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User should able to see the Wood Finish", "woodFurnitureChange")</span>
+                <span class="method-start">224476 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">236797 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,4 @@
+file:src/test/java/features/searchingColours.feature:15
+file:src/test/java/features/expandFAQ.feature:2
+file:src/test/java/features/paintStroreNearMe.feature:2
+file:src/test/java/features/filterandCompare.feature:13

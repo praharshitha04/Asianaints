@@ -1,6 +1,6 @@
 Feature: colourBlender
 
-Scenario: Validate the user is able to pick the colours and Click on TryOut now
+Scenario: Validate the user is able to see Blend Colours Page
 Given Browser is Launched and url is navigated
 And Handle the popUp
 And User should hover on PaintsAndColours
